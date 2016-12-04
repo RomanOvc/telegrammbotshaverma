@@ -12,7 +12,7 @@ bot = telebot.TeleBot('328238493:AAEZPnI4hdrSXdmv_ICdCfvModJCRIHIp6E')
 
 @bot.message_handler(commands=['start'])
 def SendInfo(message):
-    bot.send_message(message.chat.id, 'Привет я БОООООТ')
+    bot.send_message(message.chat.id, 'Привет!,я ШаВеРнЫй бОгТ')
 
 
 @bot.message_handler(commands=['text'])
